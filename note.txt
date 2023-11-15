@@ -1,0 +1,26 @@
+http://localhost:3400/products
+{
+    "title": "Titre 2 ee",
+    "price": 400,
+    "quantity": 2,
+    "about": "comment",
+    "category": ["6533e07b35f46ea79384596d"]
+}
+http://localhost:3500/attachement
+http://localhost:3500/categories
+http://localhost:3400/auth/register (post)
+{
+    "firstName": "Ando",
+    "lastName": "Tiana",
+    "email": "ando@yopmail.com",
+    "password": "123456"
+}
+http://localhost:3400/auth/login (post)
+{
+    "email": "ando@yopmail.com",
+    "password": "123456"
+}
+http://localhost:3400/auth/refreshToken
+{
+   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTM4MDFlNGY3NzI4OGEzNTMxMjI2OWEiLCJpYXQiOjE2OTk5NzgyMzIsImV4cCI6MTcwMDU4MzAzMn0.mMCWal0x0ShH4iKpI5e-v3hhJEncQkL12UY3KlxqohA"
+}
